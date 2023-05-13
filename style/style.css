@@ -1,0 +1,505 @@
+#header {
+  width: 100%;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+#header #flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0;
+  background-color: #F2A45C;
+  height: 38px;
+}
+#header #flex p.header_paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 8px;
+}
+#header #flex a.header_tag {
+  color: black;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+#header #main_header {
+  background: rgba(218, 218, 218, 0.46);
+  height: 64px;
+}
+#header #main_header .logo {
+  padding-top: 15px;
+}
+#header #main_header #n_bar ul.lists1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 6px;
+  margin-right: 20px;
+}
+
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+#banner .title {
+  background-color: #4A4945;
+  padding: 10px 10px;
+  margin-top: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+#banner .main_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+}
+#banner .main_title img.lessthan {
+  width: 30px;
+}
+#banner .main_title img.morethan {
+  width: 20px;
+}
+#banner .lists ul {
+  padding-left: 5px;
+}
+#banner .lists ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+#banner .lists ul li .checked_icon {
+  padding-right: 20px;
+}
+#banner .under_ul span {
+  color: #5697E0;
+}
+#banner .button {
+  align-items: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #6D63E1 0%, #477BFF 51.56%, #5697E0 91.67%);
+  border-radius: 10px;
+  color: white;
+}
+#banner img.background {
+  margin-top: 222px;
+}
+
+#dropdownmenu {
+  margin-top: 57px;
+  position: relative;
+}
+#dropdownmenu .test1 {
+  background: #031C43;
+  border-radius: 10px;
+  height: 98px;
+  width: 90%;
+}
+#dropdownmenu .test1 .dropdown .testo {
+  display: none;
+}
+#dropdownmenu .test1 ul.dropmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#dropdownmenu .test1 ul li {
+  list-style: none;
+}
+#dropdownmenu .test1 ul li a {
+  padding-top: 36px;
+  padding-bottom: 33px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  position: absolute;
+  color: white;
+}
+
+.bgimage {
+  background-image: url(../images/bigimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.bgimage #text {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bgimage #text h2.h2text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+.bgimage #content {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+.bgimage #content .box {
+  background-color: #48719B;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.bgimage #content .box h4 {
+  padding-top: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: white;
+}
+.bgimage #content .box p {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: white;
+  text-align: center;
+}
+.bgimage #another_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bgimage #another_header h2.h2_second_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+.bgimage #diagram {
+  margin-top: 79px;
+}
+
+#bgimage {
+  background-image: url(../images/bigimage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#bgimage #second_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#bgimage #second_content h2.h2_third_text {
+  margin-top: 76px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+#bgimage #second_content h2.h2_third_text span {
+  color: rgb(78, 78, 134);
+}
+#bgimage #two_parts {
+  display: flex;
+}
+#bgimage #two_parts .image {
+  margin-top: 70px;
+}
+#bgimage #two_parts .ol_lists ol li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  padding-top: 50px;
+}
+#bgimage #middle_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#bgimage #middle_content h2.h2_fourth_text {
+  margin-top: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+
+#six_boxes {
+  background-image: url(../images/Rectangle\ 35.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 100px;
+}
+#six_boxes .first_boxes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#six_boxes .second_boxes {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#six_boxes .box {
+  background: url(../images/Rectangle\ 10.png);
+  width: 363px;
+  height: 337px;
+  left: 0px;
+  top: 0px;
+}
+#six_boxes .box h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  padding-left: 26px;
+  padding-top: 12px;
+  position: relative;
+}
+#six_boxes .box h6::after {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 1px;
+  left: 26px;
+  top: 45px;
+  background: white;
+}
+#six_boxes .box p {
+  padding-top: 15px;
+  padding-left: 26px;
+  padding-right: 64px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
+#six_boxes .box .someone {
+  padding-top: 26px;
+  padding-left: 26px;
+}
+
+#content_5 {
+  background-image: url(../images/fifthcontent.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#content_5 h2.h2_fifth_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+  margin-top: 89px;
+  text-align: center;
+}
+#content_5 .dy_pjese {
+  margin-top: 106px;
+  margin-left: 13%;
+}
+#content_5 #four_parts {
+  margin-top: 100px;
+}
+#content_5 #four_parts h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  position: relative;
+}
+#content_5 #four_parts h5::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 6px;
+  left: 0;
+  top: 55px;
+  background: #031C43;
+}
+#content_5 #four_parts h5.another::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 6px;
+  left: 0;
+  top: 40px;
+  background: #031C43;
+}
+#content_5 #four_parts p {
+  padding-top: 35px;
+}
+
+#accordion {
+  background-image: url(../images/Frame\ 19193.png);
+  background-repeat: no-repeat;
+  background-position: center-center;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+#accordion .accordion-button {
+  background-color: #48719B;
+}
+#accordion .h1text {
+  color: white;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  padding-top: 58px;
+}
+#accordion .ptext {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+#accordion .color {
+  background-color: #48719B;
+}
+#accordion .bcgwhite {
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 5px;
+}
+#accordion .content {
+  background: linear-gradient(269.84deg, #AAC2DC 49.86%, #56BFE0 67.4%, #AAC2DC 101.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#accordion ul.lists li {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 200;
+}
+#accordion #accordion-example {
+  border-radius: 25px;
+}
+#accordion .line {
+  width: 50px;
+  height: 5px;
+  margin-left: 10px;
+  background: #ABC2DC;
+}
+
+#full_width_boxes {
+  background-image: url(../images/fifthcontent.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+#full_width_boxes h2.h2_six_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: capitalize;
+  margin-top: 89px;
+  text-align: center;
+}
+#full_width_boxes h2.h2_six_text span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #F2A45C;
+}
+#full_width_boxes p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+#full_width_boxes .orange_border {
+  border: 3px solid #F2A45C;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+#full_width_boxes .orange_border p.under_h6 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 46px;
+  padding-top: 26px;
+  position: relative;
+}
+#full_width_boxes .orange_border p.under_h6::after {
+  position: absolute;
+  content: "";
+  width: 15%;
+  height: 2px;
+  left: 45px;
+  top: 45px;
+  background: #6193C0;
+}
+#full_width_boxes .orange_border p span.number_incircle {
+  margin-left: 70px;
+  margin-bottom: 20px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+#full_width_boxes .orange_border h6 {
+  margin-top: 5px;
+  padding-bottom: 26px;
+  padding-left: 46px;
+}/*# sourceMappingURL=style.css.map */
