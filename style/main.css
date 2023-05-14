@@ -85,4 +85,13 @@ body{
         max-width: 100%;
         margin-left: 0!important;
     }
+    .logo{
+        display: none;
+    }
+    .paragraf{
+     padding-left: 0!important;
+    }
+    .border1{
+        margin-bottom: 10px;
+    }
 }
