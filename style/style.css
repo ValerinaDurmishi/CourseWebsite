@@ -42,7 +42,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: 24px;
+  gap: 15px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -90,7 +90,8 @@
   margin-bottom: 20px;
 }
 #banner .lists ul li .checked_icon {
-  padding-right: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 #banner .under_ul span {
   color: #5697E0;
@@ -277,12 +278,12 @@
   margin-top: 100px;
 }
 #six_boxes .first_boxes {
-  margin-top: 30px;
+  margin-top: -50px;
   margin-bottom: 30px;
 }
 #six_boxes .second_boxes {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 #six_boxes .box {
   background: url(../images/Rectangle\ 10.png);
@@ -333,6 +334,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-bottom: 60px;
 }
 #content_5 h2.h2_fifth_text {
   font-family: "Inter";
@@ -485,7 +487,7 @@
 #full_width_boxes .orange_border p.under_h6::after {
   position: absolute;
   content: "";
-  width: 15%;
+  width: 13%;
   height: 2px;
   left: 45px;
   top: 45px;
@@ -561,13 +563,13 @@
   top: 40px;
   background: white;
 }
-#blue_background .logo a img {
-  width: 60px;
+#blue_background .logo1 a img {
+  width: 50px;
   margin-left: 340px;
 }
 #blue_background .paragraf {
   padding-top: 60px;
-  padding-left: 200px;
+  padding-left: 225px;
   color: white;
   font-family: "Inter";
   font-style: normal;
@@ -612,7 +614,7 @@
   border: 1px solid #0C3B83;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.9s ease;
+  transition: all 0.6s ease;
 }
 #offers #academy .border1:hover h2 {
   color: white;
@@ -657,7 +659,7 @@
   border: 1px solid #0C3B83;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.9s ease;
+  transition: all 0.6s ease;
 }
 #offers #academy .border2:hover h2 {
   color: white;
@@ -674,7 +676,7 @@
   text-align: center;
   margin-top: 40px;
 }
-#offers #academy span {
+#offers #academy span.price {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -684,7 +686,7 @@
   display: flex;
   justify-content: center;
 }
-#offers #academy h5 {
+#offers #academy h5.lightblue {
   background: #A5EAEE;
   padding: 10px 20px;
   max-width: 30%;
@@ -702,6 +704,7 @@
   margin-left: 25px;
 }
 #offers #academy .box p {
+  padding: 10px 20px;
   text-align: center;
   font-family: "Inter";
   font-style: normal;
@@ -709,6 +712,9 @@
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
+}
+#offers #academy .box p.second {
+  padding-top: 0;
 }
 #offers #academy .listss ul li {
   list-style-type: none;
@@ -726,8 +732,197 @@
   font-size: 24px;
   line-height: 29px;
 }
-#offers #academy .description h6.yellow {
-  font-weight: bold;
+#offers #academy .description h5.span_with_two_boxes {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+}
+#offers #academy .description h5.span_with_two_boxes span.yellow {
   background-color: #F2A45C;
-  padding: 2px 2px;
+  font-weight: bold;
+  padding: 2px;
+}
+#offers #academy .description h5.span_with_two_boxes1 {
+  padding-bottom: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-align: center;
+}
+#offers #academy .description h5.span_with_two_boxes1 span.yellow {
+  background-color: #F2A45C;
+  font-weight: bold;
+  padding: 2px;
+}
+#offers #academy #btn a.down_button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #3227B3 0%, #477BFF 51.56%, #5697E0 91.67%);
+  border-radius: 10px;
+}
+
+#almostendcontent {
+  background-image: url(../images/darkblue.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#almostendcontent .two_headers {
+  color: white;
+  margin-top: 80px;
+}
+#almostendcontent .two_headers .one {
+  color: #82817F;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#almostendcontent .two_headers .two {
+  color: #ABC5DD;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#almostendcontent .strong_p p.strong__ {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 33px;
+}
+#almostendcontent .img_code {
+  position: relative;
+}
+#almostendcontent .img_code img.code {
+  margin-top: 26px;
+}
+#almostendcontent .img_code .in_image {
+  position: absolute;
+  background: white;
+  padding: 10px 20px;
+  width: 40%;
+  text-align: center;
+  margin-top: -20%;
+  margin-left: 40px;
+  z-index: 2;
+}
+#almostendcontent .call {
+  margin-top: 86px;
+}
+#almostendcontent .call .book_a_call {
+  text-decoration: none;
+  color: black;
+  background-color: #ABC5DD;
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  border-radius: 10px;
+}
+#almostendcontent img.d_img {
+  margin-top: 200px;
+}
+
+#lastcontent {
+  background-image: url(../images/rotated.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+#lastcontent h2 {
+  margin-top: 80px;
+}
+#lastcontent h2.h2_eight_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+#lastcontent h2.h2_eight_text span {
+  color: #65A9DB;
+}
+#lastcontent .greyp .grey {
+  color: grey;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  margin-top: 20px;
+}
+#lastcontent .greyp .black {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+#lastcontent #forms form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#lastcontent #forms form input {
+  padding: 15px 15px;
+  border: 2px solid rgb(97, 103, 195);
+  border-radius: 10px;
+}
+#lastcontent #forms form input.submit {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #1F1E9E;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 136px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#lastcontent #forms form select {
+  padding: 15px 15px;
+  border: 2px solid rgb(97, 103, 195);
+  border-radius: 10px;
+}
+#lastcontent #forms form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #606060;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+#lastcontent #forms form p {
+  padding-top: 30px;
+  text-align: center;
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
