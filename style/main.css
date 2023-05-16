@@ -20,6 +20,16 @@ body{
       width: 50%;
       margin: 0 auto;
     }
+    #n_bar{
+        margin-top: 15px;
+        color: black;
+    }
+    .lists1{
+        background-color: lightgray!important;
+    }
+    .down{
+        display: none;
+    }
 }
 @media (max-width:575px)
 {
