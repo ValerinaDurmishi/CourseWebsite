@@ -126,8 +126,6 @@ body {
   .box {
     padding: 20px !important;
   }
-  .box_border_2 {
-  }
 }
 @media (max-width: 1400px) {
   .box_in_border_2 {
