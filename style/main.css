@@ -120,6 +120,9 @@ body {
   .logoja {
     display: none !important;
   }
+  .box {
+    margin-bottom: 40px !important;
+  }
   .disappear {
     display: none;
   }
@@ -128,8 +131,7 @@ body {
   }
 }
 @media (max-width: 1400px) {
-  .box_in_border_2 {
-    right: 0 !important;
-    padding: 10px 25px !important;
+  .rotated_right {
+    transform: rotate(30deg) !important;
   }
 }

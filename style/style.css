@@ -559,74 +559,6 @@
   line-height: 28px;
 }
 
-#blue_background {
-  background-image: url(../images/backk.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-bottom: 100px;
-}
-#blue_background h2.h2_seventh_text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  text-transform: capitalize;
-  margin-top: 70px;
-  color: white;
-}
-#blue_background .back_ground {
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/Screen\ Shot\ 2023-04-26\ at\ 2.15\ 1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border: 3px solid #6193c0;
-  border-radius: 10px;
-  margin-top: 51px;
-}
-#blue_background img {
-  max-width: 25%;
-  max-height: 15%;
-  float: left;
-}
-#blue_background .text {
-  font-size: 20px;
-  padding-left: 20px;
-  float: left;
-}
-#blue_background .text h4 {
-  position: relative;
-  color: white;
-}
-#blue_background .text h4::after {
-  position: absolute;
-  content: "";
-  width: 120%;
-  height: 4px;
-  left: 0;
-  top: 40px;
-  background: white;
-}
-#blue_background .logo1 a img {
-  width: 50px;
-  margin-left: 340px;
-}
-#blue_background .paragraf {
-  padding-top: 60px;
-  padding-left: 225px;
-  color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
-
 #offers {
   background-image: url(../images/fifthcontent.png);
   background-repeat: no-repeat;
@@ -651,121 +583,61 @@
 #offers h2.h2_eight_text span {
   color: #65a9db;
 }
-#offers #academy {
-  margin-top: 70px;
-  position: relative;
+#offers #boxes {
+  padding: 15px 0;
 }
-#offers #academy .border1 {
-  margin-top: 125px;
+#offers #boxes .box {
+  min-height: 500px;
+  padding: 30px;
   border: 1px solid #0c3b83;
   border-radius: 10px;
+  position: relative;
 }
-#offers #academy .border1 h2 {
+#offers #boxes .box:hover {
+  background: #031c43;
+  border: 1px solid #0c3b83;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+#offers #boxes .box:hover h2 {
+  color: white;
+  transition: all 0.3s ease;
+}
+#offers #boxes .box:hover li {
+  color: white;
+  transition: all 0.3s ease;
+}
+#offers #boxes .box:hover span.price {
+  color: #65a9db;
+}
+#offers #boxes .box.space {
+  margin-top: 50px;
+}
+#offers #boxes .box h2 {
+  text-align: center;
   margin-top: 10px;
 }
-#offers #academy .border1:hover {
-  background: #031c43;
-  border: 1px solid #0c3b83;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.6s ease;
-}
-#offers #academy .border1:hover h2 {
-  color: white;
-  transition: all 0.3s ease;
-}
-#offers #academy .border1:hover li {
-  color: white;
-  transition: all 0.3s ease;
-}
-#offers #academy .border1:hover span {
-  color: #65a9db;
-}
-#offers #academy .box_in_border {
-  background-color: #f2a45c;
-  padding: 10px 10px;
-  max-width: 50%;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  transform: rotate(-15deg);
-  border-radius: 10px;
-  left: 14.49px;
-  top: 128.31px;
-}
-#offers #academy .bluetest h2 {
-  background: #65a9db;
-  border-radius: 10px 10px 0px 0px;
-  height: 80px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 13px;
-  margin-bottom: 0;
-}
-#offers #academy .box_in_border2 {
-  background-color: #f2a45c;
-  padding: 10px 40px;
-  max-width: 50%;
-  text-align: center;
-  justify-content: flex-end;
-  color: black;
-  font-weight: bold;
-  transform: rotate(30deg);
-  border-radius: 10px;
-  position: absolute;
-  right: -50px;
-  bottom: 800px;
-}
-#offers #academy .border2 {
-  position: relative;
-  border: 1px solid #0c3b83;
-  border-radius: 10px;
-}
-#offers #academy .border2 h2 {
-  margin-top: 60px;
-}
-#offers #academy .border2:hover {
-  background: #031c43;
-  border: 1px solid #0c3b83;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.6s ease;
-}
-#offers #academy .border2:hover h2 {
-  color: white;
-  transition: all 0.3s ease;
-}
-#offers #academy .border2:hover li {
-  color: white;
-  transition: all 0.3s ease;
-}
-#offers #academy .border2:hover span {
-  color: #65a9db;
-}
-#offers #academy h2 {
-  text-align: center;
-  margin-top: 40px;
-}
-#offers #academy span.price {
+#offers #boxes .box span.price {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 40px;
+  line-height: 50px;
   color: #0c3b83;
   display: flex;
   justify-content: center;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
-#offers #academy h5.lightblue {
+#offers #boxes .box h5.lightblue {
   background: #a5eaee;
   padding: 10px 20px;
-  max-width: 30%;
+  max-width: 40%;
   margin-top: 15px;
   text-align: center;
   margin-left: 25px;
 }
-#offers #academy .box {
+#offers #boxes .box .colorfulborder {
   background: linear-gradient(250.26deg, #0b1676 32.92%, #0d5bb2 58.68%, #6b9ecf 100%);
   border: 3px solid #f2a45c;
   border-radius: 10px;
@@ -774,7 +646,7 @@
   margin-top: 45px;
   margin-left: 25px;
 }
-#offers #academy .box p {
+#offers #boxes .box .colorfulborder p {
   padding: 10px 20px;
   text-align: center;
   font-family: "Inter";
@@ -784,17 +656,47 @@
   line-height: 25px;
   color: #ffffff;
 }
-#offers #academy .box p.second {
+#offers #boxes .box .colorfulborder p.second {
   padding-top: 0;
 }
-#offers #academy .listss ul li {
+#offers #boxes .box .listss ul li {
   list-style-type: none;
   padding-top: 20px;
 }
-#offers #academy .listss ul li:last-child {
-  padding-bottom: 120px;
+#offers #boxes .box .listss ul li:last-child {
+  padding-bottom: 140px;
 }
-#offers #academy .description {
+#offers #boxes .box .listss ul li:last-child.end {
+  padding-bottom: 100px;
+}
+#offers #boxes .box .rotated {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  padding: 10px 40px;
+}
+#offers #boxes .box .rotated_right {
+  position: absolute;
+  right: -30px;
+  top: -40px;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(20deg);
+  padding: 10px 40px;
+}
+#offers #boxes .popular {
+  text-align: center;
+  background: #65a9db;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding: 15px 20px;
+}
+#offers .description {
   padding-top: 56px;
   text-align: center;
   font-family: "Inter";
@@ -803,7 +705,7 @@
   font-size: 24px;
   line-height: 29px;
 }
-#offers #academy .description h5.span_with_two_boxes {
+#offers .description h5.span_with_two_boxes {
   padding-top: 75px;
   padding-bottom: 25px;
   font-family: "Inter";
@@ -813,12 +715,12 @@
   line-height: 37px;
   text-align: center;
 }
-#offers #academy .description h5.span_with_two_boxes span.yellow {
+#offers .description h5.span_with_two_boxes span.yellow {
   background-color: #f2a45c;
   font-weight: bold;
   padding: 2px;
 }
-#offers #academy .description h5.span_with_two_boxes1 {
+#offers .description h5.span_with_two_boxes1 {
   padding-bottom: 25px;
   font-family: "Inter";
   font-style: normal;
@@ -827,15 +729,15 @@
   line-height: 37px;
   text-align: center;
 }
-#offers #academy .description h5.span_with_two_boxes1 span.yellow {
+#offers .description h5.span_with_two_boxes1 span.yellow {
   background-color: #f2a45c;
   font-weight: bold;
   padding: 2px;
 }
-#offers #academy #btn a {
+#offers #btn a {
   transition: all 0.3s ease;
 }
-#offers #academy #btn a.down_button {
+#offers #btn a.down_button {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -843,7 +745,7 @@
   background: linear-gradient(90deg, #3227b3 0%, #477bff 51.56%, #5697e0 91.67%);
   border-radius: 10px;
 }
-#offers #academy #btn a:hover {
+#offers #btn a:hover {
   background: linear-gradient(90deg, #4a3ecf 0%, #5082ff 50%, #2f69ac 90.67%);
 }
 
