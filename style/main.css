@@ -30,9 +30,68 @@ body {
     display: none;
   }
 }
+@media (max-width: 1400px) {
+  .rotated_right {
+    transform: rotate(30deg) !important;
+  }
+}
+@media (max-width: 1200px) {
+  .logoja {
+    display: none !important;
+  }
+  .box {
+    margin-bottom: 40px !important;
+  }
+  .disappear {
+    display: none;
+  }
+  .box {
+    padding: 20px !important;
+  }
+}
+@media (max-width: 960px) {
+  .dropmenu {
+    visibility: hidden;
+  }
+  .testo {
+    display: block !important;
+    width: 50% !important;
+    margin-top: 15px;
+    padding: 10px 43px 10px 43px !important;
+    background-color: #f0a35b !important;
+    color: #4a4945 !important;
+  }
+  .prova {
+    width: 100% !important;
+    padding: 0 0 !important;
+    background-color: #031c43 !important;
+    border: 1px solid #000000 !important;
+    border-radius: 8px !important;
+    color: white !important;
+  }
+  .testi_colors {
+    color: white !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+  }
+  .testi_colors:hover {
+    background-color: #f0a35b !important;
+  }
+  #content {
+    .box {
+      min-height: 300px;
+    }
+  }
+}
 @media (max-width: 575px) {
   .dropmenu {
     visibility: hidden;
+  }
+  #content {
+    .box {
+      min-height: 200px;
+    }
   }
 }
 @media (max-width: 575px) {
@@ -83,7 +142,7 @@ body {
     margin-top: 20px !important;
   }
   .diagram {
-    max-width: 100%;
+    max-width: 100% !important;
   }
   .image_half {
     max-width: 100%;
@@ -114,24 +173,5 @@ body {
   .in_image {
     margin-top: -150px !important;
     width: 70% !important;
-  }
-}
-@media (max-width: 1200px) {
-  .logoja {
-    display: none !important;
-  }
-  .box {
-    margin-bottom: 40px !important;
-  }
-  .disappear {
-    display: none;
-  }
-  .box {
-    padding: 20px !important;
-  }
-}
-@media (max-width: 1400px) {
-  .rotated_right {
-    transform: rotate(30deg) !important;
   }
 }
